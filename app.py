@@ -34,4 +34,4 @@ def categorize_launches(launches):
 launches = categorize_launches(fetch_isro_launches())
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=False)
